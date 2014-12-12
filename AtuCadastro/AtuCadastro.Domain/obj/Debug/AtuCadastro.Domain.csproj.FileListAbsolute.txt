@@ -1,0 +1,9 @@
+c:\users\marcus\documents\visual studio 2013\Projects\AtuCadastro\AtuCadastro.Domain\bin\Debug\AtuCadastro.Domain.dll
+c:\users\marcus\documents\visual studio 2013\Projects\AtuCadastro\AtuCadastro.Domain\bin\Debug\AtuCadastro.Domain.pdb
+c:\users\marcus\documents\visual studio 2013\Projects\AtuCadastro\AtuCadastro.Domain\obj\Debug\AtuCadastro.Domain.csprojResolveAssemblyReference.cache
+c:\users\marcus\documents\visual studio 2013\Projects\AtuCadastro\AtuCadastro.Domain\obj\Debug\AtuCadastro.Domain.dll
+c:\users\marcus\documents\visual studio 2013\Projects\AtuCadastro\AtuCadastro.Domain\obj\Debug\AtuCadastro.Domain.pdb
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Domain\bin\Debug\AtuCadastro.Domain.dll
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Domain\bin\Debug\AtuCadastro.Domain.pdb
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Domain\obj\Debug\AtuCadastro.Domain.dll
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Domain\obj\Debug\AtuCadastro.Domain.pdb

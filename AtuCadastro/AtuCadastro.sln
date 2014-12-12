@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{37C62C04-63E6-4F8C-8E80-F455F21E3EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtuCadastro.Domain", "AtuCadastro.Domain\AtuCadastro.Domain.csproj", "{9DC33264-5958-47D2-9AB6-EFE0AE1A574C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Data", "02 - Data", "{00414C51-C889-42A2-BC4E-4A28B2D4CAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtuCadastro.EntityFramework", "AtuCadastro.EntityFramework\AtuCadastro.EntityFramework.csproj", "{607C568C-108E-4CE0-A0D8-B15C2F85F8DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Services", "04 - Services", "{DABCFEF1-2083-491C-83C6-04EE09237D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtuCadastro.WebApi", "AtuCadastro.WebApi\AtuCadastro.WebApi.csproj", "{AEEE1A37-D4FE-4378-953A-18EE9F009A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Application", "01 - Application", "{880B0370-98D3-491F-8E05-ACB221974E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtuCadastro.Application", "AtuCadastro.Application\AtuCadastro.Application.csproj", "{55FBFED8-2540-446B-BDDA-B1543C4FBE94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Apresentation", "05 - Apresentation", "{240C014D-8FF5-4654-94A8-844645BA7C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtuCadastro.UI", "AtuCadastro.UI\AtuCadastro.UI.csproj", "{1FB5851E-0253-4A96-82B3-F2D98CF76AF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DC33264-5958-47D2-9AB6-EFE0AE1A574C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC33264-5958-47D2-9AB6-EFE0AE1A574C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC33264-5958-47D2-9AB6-EFE0AE1A574C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC33264-5958-47D2-9AB6-EFE0AE1A574C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607C568C-108E-4CE0-A0D8-B15C2F85F8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607C568C-108E-4CE0-A0D8-B15C2F85F8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607C568C-108E-4CE0-A0D8-B15C2F85F8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607C568C-108E-4CE0-A0D8-B15C2F85F8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEE1A37-D4FE-4378-953A-18EE9F009A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEE1A37-D4FE-4378-953A-18EE9F009A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEE1A37-D4FE-4378-953A-18EE9F009A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEE1A37-D4FE-4378-953A-18EE9F009A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55FBFED8-2540-446B-BDDA-B1543C4FBE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55FBFED8-2540-446B-BDDA-B1543C4FBE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55FBFED8-2540-446B-BDDA-B1543C4FBE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55FBFED8-2540-446B-BDDA-B1543C4FBE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB5851E-0253-4A96-82B3-F2D98CF76AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB5851E-0253-4A96-82B3-F2D98CF76AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB5851E-0253-4A96-82B3-F2D98CF76AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB5851E-0253-4A96-82B3-F2D98CF76AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DC33264-5958-47D2-9AB6-EFE0AE1A574C} = {37C62C04-63E6-4F8C-8E80-F455F21E3EA4}
+		{607C568C-108E-4CE0-A0D8-B15C2F85F8DB} = {00414C51-C889-42A2-BC4E-4A28B2D4CAE8}
+		{AEEE1A37-D4FE-4378-953A-18EE9F009A34} = {DABCFEF1-2083-491C-83C6-04EE09237D37}
+		{55FBFED8-2540-446B-BDDA-B1543C4FBE94} = {880B0370-98D3-491F-8E05-ACB221974E54}
+		{1FB5851E-0253-4A96-82B3-F2D98CF76AF3} = {240C014D-8FF5-4654-94A8-844645BA7C2C}
+	EndGlobalSection
+EndGlobal

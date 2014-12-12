@@ -1,0 +1,123 @@
+﻿<html ng-app="crudModule">
+@{
+    ViewBag.Title = "Index";
+}
+
+<head title="">
+    <style type="text/css">
+        #tblContainer, #tblcollections, #tblCRUD, td {
+            border: double;
+        }
+
+        th {
+            background-color: darkgray;
+        }
+
+        #dvcollection {
+            height: 500px;
+            overflow-y: scroll;
+        }
+    </style>
+
+    
+</head>
+<h2>Using Angular for Performing CRUD Operations</h2>
+<body>
+    <table id="tblContainer" ng-controller="crudController">
+        <tr>
+            <td>
+                <table id="tblCRUD">
+                    <tr>
+                        <td>
+                            <span>ClienteId</span>
+                        </td>
+                        <td>
+                            <input type="text" id="clienteid" ng-model="ClienteId"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Nome</span>
+                        </td>
+                        <td>
+                            <input type="text" id="nome" required ng-model="Nome" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>NroTelefoneResidencial</span>
+                        </td>
+                        <td>
+                            <input type="text" id="nrotelefoneresidencial" required ng-model="NroTelefoneResidencial" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Endereco</span>
+                        </td>
+                        <td>
+                            <input type="text" id="endereco" required ng-model="Endereco" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>DataNascimento</span>
+                        </td>
+                        <td>
+                            <input type="text" id="datanascimento" required ng-model="DataNascimento" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>NroTelefoneCelular</span>
+                        </td>
+                        <td>
+                            <input type="text" id="nrotelefonecelular" required ng-model="NroTelefoneCelular" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="new" value="New" ng-click="clear()" />
+                        </td>
+                        <td>
+                            <input type="button" id="save" value="Save" ng-click="save()" />
+                        </td>
+                    </tr>
+                </table>
+                <div>{{Message}}</div>
+            </td>
+            <td>
+                <div id="dvcollection">
+                    <table id="tblcollections">
+                        <thead>
+                            <tr>
+                                <th>ClienteId</th>
+                                <th>Nome</th>
+                                <th>NroTelefoneResidencial</th>
+                                <th>Endereco</th>
+                                <th>DataNascimento</th>
+                                <th>NroTelefoneCelular</th>
+                            </tr>
+                        </thead>
+                        <table ng-repeat="Cliente in Clientes">
+                            <tr ng-click="get(Cliente)">
+                                <td> <span>{{Cliente.ClienteId}}</span></td>
+                                <td> <span>{{Cliente.Nome}}</span></td>
+                                <td> <span>{{Cliente.NroTelefoneResidencial}}</span></td>
+                                <td> <span>{{Cliente.Endereco}}</span></td>
+                                <td> <span>{{Cliente.DataNascimento}}</span></td>
+                                <td> <span>{{Cliente.NroTelefoneCelular}}</span></td>
+                            </tr>
+                        </table>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<script src="../Scripts/angular.js"></script>
+<script src="../Scripts/angular-route.js"></script>
+<script src="js/Module.js"></script>
+<script src="js/Service.js"></script>
+<script src="js/Controllers.js"></script>

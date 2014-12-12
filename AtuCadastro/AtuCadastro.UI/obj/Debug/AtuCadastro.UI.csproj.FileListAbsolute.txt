@@ -1,0 +1,4 @@
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.dll
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.pdb
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.dll
+C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.pdb
