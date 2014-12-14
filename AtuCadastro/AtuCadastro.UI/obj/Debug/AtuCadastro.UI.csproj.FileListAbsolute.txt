@@ -2,3 +2,9 @@ C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\bin\At
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.pdb
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.dll
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.pdb
+C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.dll.config
+C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.dll
+C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.pdb
+C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.csprojResolveAssemblyReference.cache
+C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.dll
+C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.pdb

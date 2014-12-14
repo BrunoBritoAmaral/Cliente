@@ -47,15 +47,12 @@ app.controller('crudController', function ($scope, crudService) {
         } else { //Else Edit the record
             var promisePut = crudService.put($scope.ClienteId, Cliente);
             promisePut.then(function (pl) {
-                $scope.Message = "Updated Successfuly";
+                $scope.Message = "Registro atualizado!";
                 loadRecords();
             }, function (err) {
                 console.log("Err" + err);
             });
         }
-
-
-
     };
 
     //Method to Delete

@@ -57,8 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\js\Controllers.js" />
-    <Content Include="app\js\Module.js" />
+    <Content Include="Scripts\js-app\Controllers.js" />
+    <Content Include="Scripts\js-app\Module.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -847,7 +847,7 @@
     <Content Include="Scripts\jquery-1.9.0.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\js\Service.js" />
+    <Content Include="Scripts\js-app\Service.js" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,123 +1,111 @@
 ﻿<html ng-app="crudModule">
-@{
-    ViewBag.Title = "Index";
-}
 
-<head title="">
-    <style type="text/css">
-        #tblContainer, #tblcollections, #tblCRUD, td {
-            border: double;
-        }
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro de cliente</title>
 
-        th {
-            background-color: darkgray;
-        }
+    <!-- Bootstrap -->
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
 
-        #dvcollection {
-            height: 500px;
-            overflow-y: scroll;
-        }
-    </style>
-
-    
 </head>
-<h2>Using Angular for Performing CRUD Operations</h2>
+
 <body>
-    <table id="tblContainer" ng-controller="crudController">
-        <tr>
-            <td>
-                <table id="tblCRUD">
-                    <tr>
-                        <td>
-                            <span>ClienteId</span>
-                        </td>
-                        <td>
-                            <input type="text" id="clienteid" ng-model="ClienteId"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Nome</span>
-                        </td>
-                        <td>
-                            <input type="text" id="nome" required ng-model="Nome" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>NroTelefoneResidencial</span>
-                        </td>
-                        <td>
-                            <input type="text" id="nrotelefoneresidencial" required ng-model="NroTelefoneResidencial" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Endereco</span>
-                        </td>
-                        <td>
-                            <input type="text" id="endereco" required ng-model="Endereco" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>DataNascimento</span>
-                        </td>
-                        <td>
-                            <input type="text" id="datanascimento" required ng-model="DataNascimento" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>NroTelefoneCelular</span>
-                        </td>
-                        <td>
-                            <input type="text" id="nrotelefonecelular" required ng-model="NroTelefoneCelular" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="button" id="new" value="New" ng-click="clear()" />
-                        </td>
-                        <td>
-                            <input type="button" id="save" value="Save" ng-click="save()" />
-                        </td>
-                    </tr>
-                </table>
-                <div>{{Message}}</div>
-            </td>
-            <td>
+    <div class="container">
+
+        <div class="panel panel-primary" id="tblContainer" ng-controller="crudController">
+            <div class="panel-heading"><h3>Cadastro de cliente</h3></div>
+            <div class="panel-body">
+
+                <div class="form-horizontal">
+                    <div class="control-group row-fluid form-inline row">
+
+                        <div class="col-xs-2">
+                            <label for="name" class="control-label"><p class="text-info">Nome&nbsp;<i class="icon-star"></i></p></label>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" id="nome" required ng-model="Nome" />
+                        </div>
+                    </div>
+
+                    <div class="control-group row-fluid form-inline row">
+                        <div class="col-xs-2">
+                            <label for="name" class="control-label"><p class="text-info">Telefone residencial&nbsp;<i class="icon-star"></i></p></label>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" id="nrotelefoneresidencial" required ng-model="NroTelefoneResidencial" />
+                        </div>
+                    </div>
+
+                    <div class="control-group row-fluid form-inline row">
+                        <div class="col-xs-2">
+                            <label for="name" class="control-label"><p class="text-info">Endereço&nbsp;<i class="icon-star"></i></p></label>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" id="endereco" required ng-model="Endereco" />
+                        </div>
+                    </div>
+
+                    <div class="control-group row-fluid form-inline row">
+                        <div class="col-xs-2">
+                            <label for="name" class="control-label"><p class="text-info">Data Nascimento&nbsp;<i class="icon-star"></i></p></label>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" id="datanascimento" required ng-model="DataNascimento" />
+                        </div>
+                    </div>
+
+                    <div class="control-group row-fluid form-inline row">
+                        <div class="col-xs-2">
+                            <label for="name" class="control-label"><p class="text-info">Telefone celular&nbsp;<i class="icon-star"></i></p></label>
+                        </div>
+                        <div class="col-xs-6">
+                            <input type="text" class="form-control" id="nrotelefonecelular" required ng-model="NroTelefoneCelular" />
+                        </div>
+                    </div>
+                    <br>
+                    <input class="btn btn-primary col-xs-4" role="button" id="save" value="Salvar" ng-click="save()" />
+
+                   
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
                 <div id="dvcollection">
-                    <table id="tblcollections">
+
+                    <table class="table" id="tblcollections">
                         <thead>
                             <tr>
-                                <th>ClienteId</th>
                                 <th>Nome</th>
-                                <th>NroTelefoneResidencial</th>
-                                <th>Endereco</th>
-                                <th>DataNascimento</th>
-                                <th>NroTelefoneCelular</th>
+                                <th>Telefone Residencial</th>
+                                <th>Endereço</th>
+                                <th>Data Nascimento</th>
+                                <th>Telefone Celular</th>
                             </tr>
                         </thead>
-                        <table ng-repeat="Cliente in Clientes">
+                        <tbody ng-repeat="Cliente in Clientes">
                             <tr ng-click="get(Cliente)">
-                                <td> <span>{{Cliente.ClienteId}}</span></td>
                                 <td> <span>{{Cliente.Nome}}</span></td>
                                 <td> <span>{{Cliente.NroTelefoneResidencial}}</span></td>
                                 <td> <span>{{Cliente.Endereco}}</span></td>
                                 <td> <span>{{Cliente.DataNascimento}}</span></td>
                                 <td> <span>{{Cliente.NroTelefoneCelular}}</span></td>
                             </tr>
-                        </table>
+                        </tbody>
                     </table>
                 </div>
-            </td>
-        </tr>
-    </table>
+                <div class="alert alert-success" role="alert">
+                    {{Message}}
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 <script src="../Scripts/angular.js"></script>
 <script src="../Scripts/angular-route.js"></script>
-<script src="js/Module.js"></script>
-<script src="js/Service.js"></script>
-<script src="js/Controllers.js"></script>
+<script src="../Scripts/js-app/Module.js"></script>
+<script src="../Scripts/js-app/Service.js"></script>
+<script src="../Scripts/js-app/Controllers.js"></script>
