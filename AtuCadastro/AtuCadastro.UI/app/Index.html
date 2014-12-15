@@ -13,25 +13,30 @@
 
 <body>
     <div class="container">
-
         <div class="panel panel-primary" id="tblContainer" ng-controller="crudController">
-            <div class="panel-heading"><h3>Cadastro de cliente</h3></div>
+            <div class="panel-heading">
+                <h3>Cadastro de cliente</h3>
+            </div>
             <div class="panel-body">
 
                 <div class="form-horizontal">
                     <div class="control-group row-fluid form-inline row">
 
                         <div class="col-xs-2">
-                            <label for="name" class="control-label"><p class="text-info">Nome&nbsp;<i class="icon-star"></i></p></label>
+                            <label for="name" class="control-label">
+                                <p class="text-info">Nome&nbsp;<i class="icon-star"></i></p>
+                            </label>
                         </div>
                         <div class="col-xs-6">
-                            <input type="text" class="form-control" id="nome" required ng-model="Nome" />
+                            <input type="text" class="form-control" id="nome" ng-model="Nome" />
                         </div>
                     </div>
 
                     <div class="control-group row-fluid form-inline row">
                         <div class="col-xs-2">
-                            <label for="name" class="control-label"><p class="text-info">Telefone residencial&nbsp;<i class="icon-star"></i></p></label>
+                            <label for="name" class="control-label">
+                                <p class="text-info">Telefone residencial&nbsp;<i class="icon-star"></i></p>
+                            </label>
                         </div>
                         <div class="col-xs-6">
                             <input type="text" class="form-control" id="nrotelefoneresidencial" required ng-model="NroTelefoneResidencial" />
@@ -40,7 +45,9 @@
 
                     <div class="control-group row-fluid form-inline row">
                         <div class="col-xs-2">
-                            <label for="name" class="control-label"><p class="text-info">Endereço&nbsp;<i class="icon-star"></i></p></label>
+                            <label for="name" class="control-label">
+                                <p class="text-info">Endereço&nbsp;<i class="icon-star"></i></p>
+                            </label>
                         </div>
                         <div class="col-xs-6">
                             <input type="text" class="form-control" id="endereco" required ng-model="Endereco" />
@@ -49,7 +56,9 @@
 
                     <div class="control-group row-fluid form-inline row">
                         <div class="col-xs-2">
-                            <label for="name" class="control-label"><p class="text-info">Data Nascimento&nbsp;<i class="icon-star"></i></p></label>
+                            <label for="name" class="control-label">
+                                <p class="text-info">Data Nascimento&nbsp;<i class="icon-star"></i></p>
+                            </label>
                         </div>
                         <div class="col-xs-6">
                             <input type="text" class="form-control" id="datanascimento" required ng-model="DataNascimento" />
@@ -58,7 +67,9 @@
 
                     <div class="control-group row-fluid form-inline row">
                         <div class="col-xs-2">
-                            <label for="name" class="control-label"><p class="text-info">Telefone celular&nbsp;<i class="icon-star"></i></p></label>
+                            <label for="name" class="control-label">
+                                <p class="text-info">Telefone celular&nbsp;<i class="icon-star"></i></p>
+                            </label>
                         </div>
                         <div class="col-xs-6">
                             <input type="text" class="form-control" id="nrotelefonecelular" required ng-model="NroTelefoneCelular" />
@@ -67,7 +78,12 @@
                     <br>
                     <input class="btn btn-primary col-xs-4" role="button" id="save" value="Salvar" ng-click="save()" />
 
-                   
+                    <br>
+                    <br>
+                    <div class="alert alert-success" role="alert">
+                        {{Message}}
+                    </div>
+
                 </div>
                 <br>
                 <br>
@@ -87,18 +103,16 @@
                         </thead>
                         <tbody ng-repeat="Cliente in Clientes">
                             <tr ng-click="get(Cliente)">
-                                <td> <span>{{Cliente.Nome}}</span></td>
-                                <td> <span>{{Cliente.NroTelefoneResidencial}}</span></td>
-                                <td> <span>{{Cliente.Endereco}}</span></td>
-                                <td> <span>{{Cliente.DataNascimento}}</span></td>
-                                <td> <span>{{Cliente.NroTelefoneCelular}}</span></td>
+                                <td><span>{{Cliente.Nome}}</span></td>
+                                <td><span>{{Cliente.NroTelefoneResidencial}}</span></td>
+                                <td><span>{{Cliente.Endereco}}</span></td>
+                                <td><span>{{Cliente.DataNascimento}}</span></td>
+                                <td><span>{{Cliente.NroTelefoneCelular}}</span></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="alert alert-success" role="alert">
-                    {{Message}}
-                </div>
+
             </div>
         </div>
     </div>

@@ -5,3 +5,10 @@ C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Applicati
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Application\obj\Debug\AtuCadastro.Application.csprojResolveAssemblyReference.cache
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Application\obj\Debug\AtuCadastro.Application.dll
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.Application\obj\Debug\AtuCadastro.Application.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Application\bin\Debug\AtuCadastro.Application.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Application\bin\Debug\AtuCadastro.Application.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Application\bin\Debug\AtuCadastro.Domain.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Application\bin\Debug\AtuCadastro.Domain.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Application\obj\Debug\AtuCadastro.Application.csprojResolveAssemblyReference.cache
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Application\obj\Debug\AtuCadastro.Application.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Application\obj\Debug\AtuCadastro.Application.pdb

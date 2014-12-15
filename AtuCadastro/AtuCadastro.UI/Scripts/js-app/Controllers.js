@@ -1,11 +1,4 @@
-﻿/// <reference path="../angular.js" />
-
-
-/// <reference path="Module.js" />
-
-//The controller is having 'crudService' dependency.
-//This controller makes call to methods from the service 
-app.controller('crudController', function ($scope, crudService) {
+﻿app.controller('crudController', function ($scope, crudService) {
 
     $scope.IsNewRecord = 1; //The flag for the new record
 
@@ -48,13 +41,13 @@ app.controller('crudController', function ($scope, crudService) {
             var promisePut = crudService.put($scope.ClienteId, Cliente);
             promisePut.then(function (pl) {
                 $scope.Message = "Registro atualizado!";
-                loadRecords();
+                loadRecords();                
             }, function (err) {
                 console.log("Err" + err);
             });
         }
     };
-
+        
     //Method to Delete
     $scope.delete = function () {
         var promiseDelete = crudService.delete($scope.ClienteId);
@@ -101,3 +94,4 @@ app.controller('crudController', function ($scope, crudService) {
         $scope.NroTelefoneCelular = "";
     }
 });
+

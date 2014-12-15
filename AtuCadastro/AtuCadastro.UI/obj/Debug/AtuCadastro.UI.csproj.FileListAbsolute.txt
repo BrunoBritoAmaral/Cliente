@@ -8,3 +8,8 @@ C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\bin\AtuCadas
 C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.csprojResolveAssemblyReference.cache
 C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.dll
 C:\Users\Marcus\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\bin\AtuCadastro.UI.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.csprojResolveAssemblyReference.cache
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UI\obj\Debug\AtuCadastro.UI.pdb

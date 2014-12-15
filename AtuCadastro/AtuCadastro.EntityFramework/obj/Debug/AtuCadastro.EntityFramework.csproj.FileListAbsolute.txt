@@ -26,3 +26,17 @@ C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.EntityFra
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.csproj.GenerateResource.Cache
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.dll
 C:\Users\marcus.costa.BH01\Desktop\AtuCadastro\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\AtuCadastro.EntityFramework.dll.config
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\AtuCadastro.EntityFramework.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\AtuCadastro.EntityFramework.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\AtuCadastro.Domain.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\AtuCadastro.Domain.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.csprojResolveAssemblyReference.cache
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.Migrations.InitialCreate.resources
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.csproj.GenerateResource.Cache
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.EntityFramework\obj\Debug\AtuCadastro.EntityFramework.pdb
