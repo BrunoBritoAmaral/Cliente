@@ -1,0 +1,9 @@
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.UnitTest.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.UnitTest.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\Moq.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\Moq.xml
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\obj\Debug\AtuCadastro.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\obj\Debug\AtuCadastro.UnitTest.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\obj\Debug\AtuCadastro.UnitTest.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.Domain.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.Domain.pdb

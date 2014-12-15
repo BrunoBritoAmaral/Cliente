@@ -26,13 +26,21 @@ namespace AtuCadastro.WebApi.Controllers
       _clienteApp = clienteApp;
     }
 
-    // GET api/Cliente
+    /// <summary>
+    /// Get cliente
+    /// </summary>
+    /// <returns></returns>
     public IEnumerable<ClienteViewModel> GetCliente()
     {
       var clienteViewModel = Mapper.Map<IEnumerable<Cliente>, IEnumerable<ClienteViewModel>>(_clienteApp.GetAll());
       return clienteViewModel;
     }
-    // GET api/Cliente/5
+    
+    /// <summary>
+    /// Get cliente
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
     [ResponseType(typeof(ClienteViewModel))]
     public IHttpActionResult GetCliente(int id)
     {
@@ -45,7 +53,12 @@ namespace AtuCadastro.WebApi.Controllers
       return Ok(clienteViewModel);
     }
 
-    // PUT api/Cliente/5
+    /// <summary>
+    /// Put cliente
+    /// </summary>
+    /// <param name="id"></param>
+    /// <param name="clienteViewModel"></param>
+    /// <returns></returns>
     public IHttpActionResult PutCliente(int id, ClienteViewModel clienteViewModel)
     {
       if (!ModelState.IsValid)
@@ -79,7 +92,11 @@ namespace AtuCadastro.WebApi.Controllers
       return StatusCode(HttpStatusCode.NoContent);
     }
 
-    // POST api/Cliente
+    /// <summary>
+    /// Post cliente
+    /// </summary>
+    /// <param name="clienteViewModel"></param>
+    /// <returns></returns>
     [ResponseType(typeof(ClienteViewModel))]
     public IHttpActionResult PostCliente(ClienteViewModel clienteViewModel)
     {
