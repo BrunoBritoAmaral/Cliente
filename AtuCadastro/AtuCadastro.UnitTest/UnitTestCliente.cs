@@ -30,5 +30,18 @@ namespace AtuCadastro.UnitTest
       //Confirma que o método ValidaDataNascimentoMenorDataAtual retorna falso caso a data nascimento seja maior que data atual
       Assert.AreEqual(false, clienteUtils.ValidaDataNascimentoMenorDataAtual(dataAtual));
     }
+
+    [TestMethod]
+    public void ValidaTelefoneCelular()
+    {
+      //Cria objeto cliente
+      Cliente cliente = new Cliente() { Nome = "Marcus Oliveira Costa", NroTelefoneCelular = "(31)8880-8995" };
+
+      //Instancia a classe cliente utils
+      ClienteUtils clienteUtils = new ClienteUtils(cliente);
+
+      //Confirma que o método ValidaDataNascimentoMenorDataAtual retorna falso caso a data nascimento seja maior que data atual
+      Assert.AreEqual(true, clienteUtils.ValidaTelefoneCelular());
+    }
   }
 }

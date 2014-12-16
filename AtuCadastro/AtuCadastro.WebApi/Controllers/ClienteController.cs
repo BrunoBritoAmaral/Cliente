@@ -16,7 +16,7 @@ using System.Web.Http.Cors;
 
 namespace AtuCadastro.WebApi.Controllers
 {
-  [EnableCors(origins: "http://localhost:55918", headers: "*", methods: "*")] 
+  [EnableCors(origins: "http://localhost:56155", headers: "*", methods: "*")] 
   public class ClienteController : ApiController
   {
     private readonly IClienteAppService _clienteApp;
