@@ -7,3 +7,5 @@ C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.Unit
 C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\obj\Debug\AtuCadastro.UnitTest.pdb
 C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.Domain.dll
 C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.Domain.pdb
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.Application.dll
+C:\Users\marcus.costa.BH01\Documents\GitHub\Cliente\AtuCadastro\AtuCadastro.UnitTest\bin\Debug\AtuCadastro.Application.pdb

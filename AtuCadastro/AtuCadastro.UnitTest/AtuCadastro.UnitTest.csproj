@@ -53,7 +53,6 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ClienteUtils.cs" />
     <Compile Include="UnitTestCliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AtuCadastro.Application\AtuCadastro.Application.csproj">
+      <Project>{55fbfed8-2540-446b-bdda-b1543c4fbe94}</Project>
+      <Name>AtuCadastro.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AtuCadastro.Domain\AtuCadastro.Domain.csproj">
       <Project>{9dc33264-5958-47d2-9ab6-efe0ae1a574c}</Project>
       <Name>AtuCadastro.Domain</Name>

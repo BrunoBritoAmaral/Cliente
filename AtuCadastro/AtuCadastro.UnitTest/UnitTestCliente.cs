@@ -5,6 +5,7 @@ using AtuCadastro.Domain.Interfaces.Services;
 using System.Collections;
 using AtuCadastro.Domain.Entities;
 using System.Collections.Generic;
+using AtuCadastro.Application.Utils;
 
 namespace AtuCadastro.UnitTest
 {
